@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Design layout</title>
+<link rel="stylesheet" href="sty.css">
+ <style>
+ /**
+  .wrapper{
+    display: flex;
+    background:  rgba(122, 255, 200, 0) ;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+  }
+  nav{
+    width: 256px;
+    height: 500px;
+    background: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li{
+    margin: 10px 0;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left:   20px;
+    
+    gap: 12px;
+    padding: 15px 20px;
+  }
+  main{
+    flex:1;
+    padding: 20px;
+    color: #000;
+
+  }
+  h1{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  form{
+    width: 100%;
+    background: #f0ffff;
+    max-width: 500px
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #ddd;
+  }
+  label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="email"],
+  select{
+   width: 100%;
+   padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+        }
+        option:hover{
+          background: #1d2;
+        }
+        #sbmt{
+          background: #1ed;
+          border-radius: 12px;
+          margin-top: 15px;
+          font-weight: bold;
+          padding: 8px;
+          width: 100px;
+          border: none;
+        } **/
+  </style> 
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav>
+      <h2>Dashboard</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="settings.html">Settings</a></li>
+        <li><a href="logout.html">Logout</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Settings</h1>
+      <form>
+      <h2>Profile settings</h2>  
+      <label for="">User Name</label>
+      <input type="text" name="" id="" placeholder="Your Username">
+      <label for="">Email</label>
+      <input type="email" name="" id="" placeholder="Your email address">
+      <label for="">Theme</label>
+      <select name="" id="">
+       <option value="">Red</option> 
+       <option value="">Blue</option>
+       <option value="">Green</option>
+       <option value="">Black</option>
+      </select>
+      <button type="submit" id="sbmt">Save Settings</button>
+      </form>
+    </main>
+  </div>
+</body>
+
+</html>
