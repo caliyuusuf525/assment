@@ -1,0 +1,187 @@
+/**Parents**/
+body{
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+}
+.wrapper{
+    display: flex; 
+    background:  rgba(122, 255, 200, 0) ;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+  }
+  nav{
+    width: 256px;
+    height: 500px;
+    background: #333;
+    color: white;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li{
+    margin: 10px 0;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left:   20px;
+    
+    gap: 12px;
+    padding: 15px 20px;
+  }
+ 
+ main{
+    flex:1;
+    padding: 20px;
+    color: #000;
+ }
+h1{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  /***Home**/
+  h3{
+    text-align: center;
+    font-weight: bold;
+    
+  }
+  .main1{
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px #ddd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+  }
+  /**Settings**/
+  form{
+    width: 100%;
+    background: #f0ffff;
+    /**max-width: 500px**/
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px #ddd;
+  }
+  label{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  input[type="text"],
+  input[type="email"],
+  select{
+   width: 100%;
+   padding: 10px;
+  margin-top: 5px;
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+        }
+        option:hover{
+          background: #1d2;
+        }
+        #sbmt{
+          background: #1ed;
+          border-radius: 12px;
+          margin-top: 15px;
+          font-weight: bold;
+          padding: 8px;
+          width: 100px;
+          border: none;
+        }
+        /**Students**/
+  table{
+  width: 580px;
+ /** margin: 50px auto;**/
+  border-collapse: collapse;
+  border-radius: 15px;
+  box-shadow: 0px 4px 12px #ddd;
+}
+
+th{
+  background: #28a745;
+  color: white;
+  padding: 5px;
+  text-align: left;
+}
+
+td{
+  padding: 2px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(odd){
+  background: #ddd;
+}
+
+tr:hover{
+  background: rgba(251, 17, 201, 0.2);
+}
+  img{
+    float: left;
+    width: 50px;
+    height: 50px;
+    margin: 0 0 5px 5px;
+    border: none;
+    border-radius: 50px;
+  }
+button{
+  padding: 6px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.edit{
+  background: #28a745;
+  color: white;
+}
+
+.edit:hover{
+  background: #1e7e34;
+}
+
+.delete{
+  background: #dc3545;
+  color: white;
+  margin-left: 25px;
+}
+
+.delete:hover{
+  background: #a71d2a;
+}
+
+/**Logout**/
+  .main4{
+    background: #f0ffff;
+    padding: 20px;
+    text-align: center ;
+    box-shadow: 0 4px 8px #ddd;
+    border: 1px #ddd solid;
+    border-radius: 10px;
+  }
+  .inf{
+    text-align: center;
+    color: red;
+  }
+  .btn-end{
+   background: #1d2; 
+   padding: 10px;
+   margin-top: 15px;
+   font-weight: bold;
+   border: none;
+   border-radius: 15px;
+  }
