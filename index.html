@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Design index</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+ body{
+    margin: 0;
+  }
+  .wrapper{
+    display: flex;
+    background:  rgba(239, 239, 239, 0) ;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+    float: left;
+  }
+  nav{
+    width: 256px;
+    background: #333;
+    color: white;
+    padding: 20px;
+    height: 500px;
+    box-sizing: border-box;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li{
+    margin: 10px 0;
+  }
+  a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left:   20px;
+    
+    gap: 20px;
+    padding: 15px 20px;
+  }
+  main{
+    /* flex:1; */
+    width: 100%;
+    margin-left: 50px;
+    padding: 20px;
+    color: #000;
+
+  }
+  h1{
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    border-radius: 10px;
+  }
+  h3{
+    text-align: center;
+    font-weight: bold;
+    
+  }
+  .main1{
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px #ddd;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+  } 
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav>
+      <h2>Dashboard</h2>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="settings.html">Settings</a></li>
+        <li><a href="logout.html">Logout</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h1>Welcome to Students Dashboard</h1>
+      <div class="main1">
+      <h3>Hello Administrator 👋</h3>
+      <p>Use the sidebar to manage students, adjust settings, or securely logout.</p>
+      <p>This dashboard helps you track, update, and organize student information easily.</p>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
